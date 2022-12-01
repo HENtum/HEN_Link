@@ -1,0 +1,428 @@
+.flex{
+    font-size: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.link1:hover ~ .visible{
+    transform: translateY(0);
+}
+.link1{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link1::before{
+    content: 'Simaware';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+}
+.link1:hover::before{
+    transform: translateY(0);
+}
+.link1:hover ~.visible{
+    transform: translateY(0);
+}
+.link2{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link2::before{
+    content: 'Radio Record';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+}
+.link2:hover::before{
+    transform: translateY(0);
+}
+.link3{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link3::before{
+    content: 'Fs.Project';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link3:hover::before{
+    transform: translateY(0);
+}
+.link4{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link4::before{
+    content: 'SimBrief';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link4:hover::before{
+    transform: translateY(0);
+}
+.link5{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link5::before{
+    content: 'FlightHelperBot';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link5:hover::before{
+    transform: translateY(0);
+}
+.link6{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link6::before{
+    content: 'FsAirlines';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link6:hover::before{
+    transform: translateY(0);
+}
+.link7{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link7::before{
+    content: 'Madadev';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link7:hover::before{
+    transform: translateY(0);
+}
+.link8{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link8::before{
+    content: 'Beget';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link8:hover::before{
+    transform: translateY(0);
+}
+.link9{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link9::before{
+    content: 'HENweath';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link9:hover::before{
+    transform: translateY(0);
+}
+.link10{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link10::before{
+    content: 'Figma';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link10:hover::before{
+    transform: translateY(0);
+}
+.link11{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link11::before{
+    content: 'YouTube';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link11:hover::before{
+    transform: translateY(0);
+}
+.link12{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link12::before{
+    content: 'Translator';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link12:hover::before{
+    transform: translateY(0);
+}
+.link13{
+    position: relative;
+    color: rgb(12, 130, 234);
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: rgba(250, 250, 250, 0.811);
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+}
+.link13::before{
+    content: 'DW Cureit';
+    color:rgb(246, 249, 252);
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: 1s;
+    overflow: hidden;
+}
+.link13:hover::before{
+    transform: translateY(0);
+}
+.content{
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 250px;
+    font-size: 20px;
+    background: rgb(104, 109, 163);
+    color: whitesmoke;
+    border: 5px solid;
+    border-color: rgb(104, 109, 163);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
